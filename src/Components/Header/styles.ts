@@ -9,15 +9,15 @@ export const Header = styled.header`
   position: fixed;
   width: 100vw;
   top: 0;
-  background-color: ${({ theme }) => theme.colors.dark};
+  background-color: ${({ theme }) => theme.colors.white};
   z-index: 100;
 `;
 
 export const Content = styled.div`
   img {
-    height: 30px;
+    width: 5rem;
   }
-  color: ${({ theme }) => theme.colors.white};
+  color: ${({ theme }) => theme.colors.dark};
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -35,7 +35,7 @@ export const Content = styled.div`
       left: 0%;
       width: 0;
       height: 4px;
-      background-color: ${({ theme }) => theme.colors.primary};
+      background-color: ${({ theme }) => theme.colors.dark};
       display: block;
       content: '';
       transition: 0.5s ease-in-out;

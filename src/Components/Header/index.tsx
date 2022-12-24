@@ -7,7 +7,7 @@ export default function HeaderContainer() {
   return (
     <Header>
       <Content>
-        <img src="/assets/vr_logo2.svg" alt="logo Vinicius Rocha" />
+        <img src="/assets/logo_sis.png" alt="Logo Sis Comedoria" />
         <nav>
           <ul>
             <li>
@@ -17,7 +17,7 @@ export default function HeaderContainer() {
             </li>
             <li>
               <Link href="#tecnologias">
-                <a>Produtos</a>
+                <a>Cardápio</a>
               </Link>
             </li>
 
@@ -36,17 +36,17 @@ export default function HeaderContainer() {
         <ul>
           <li>
             <Link href="#sobre">
-              <a onClick={() => setOpen(!open)}> Sobre mim</a>
+              <a onClick={() => setOpen(!open)}> Sobre</a>
             </Link>
           </li>
           <li>
             <Link href="#tecnologias">
-              <a onClick={() => setOpen(!open)}>Tecnologias</a>
+              <a onClick={() => setOpen(!open)}>Produtos</a>
             </Link>
           </li>
           <li>
             <Link href="#projetos">
-              <a onClick={() => setOpen(!open)}>Projetos</a>
+              <a onClick={() => setOpen(!open)}>Contato</a>
             </Link>
           </li>
         </ul>

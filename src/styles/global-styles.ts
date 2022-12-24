@@ -23,7 +23,7 @@ export const GlobalStyles = createGlobalStyle`
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: ${({ theme }) => theme.colors.primary};
+  background: ${({ theme }) => theme.colors.dark};
   border-radius: .5rem;
 }
 
@@ -39,8 +39,8 @@ html{
 }
 
 body {
-    font-family: 'Poppins', sans-serif;
-    background-color: ${({ theme }) => theme.colors.dark};
+    font-family: 'Tenez', sans-serif;
+    background-color: ${({ theme }) => theme.colors.white};
   }
 
   a{
