@@ -2,7 +2,7 @@ import { Content, Grid } from './styles';
 
 export default function Sobre() {
   return (
-    <Content>
+    <Content id="sobre">
       <h2>Um pouquinho sobre a gente</h2>
       <Grid>
         <p>

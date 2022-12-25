@@ -13,7 +13,7 @@ const fotos = [
 
 export default function Galeria() {
   return (
-    <Content>
+    <Content id="galeria">
       <h2>Galeria</h2>
       <span>um pouquinho das nossas delícias</span>
       <Grid>

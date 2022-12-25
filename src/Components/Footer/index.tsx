@@ -3,7 +3,7 @@ import { Footer, Grid } from './styles';
 
 export default function FooterContainer() {
   return (
-    <Footer>
+    <Footer id="footer">
       <Grid>
         <div className="mapa">
           <h2>Onde estamos</h2>

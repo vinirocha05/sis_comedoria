@@ -8,7 +8,7 @@ export const GlobalStyles = createGlobalStyle`
   margin: 0;
   box-sizing: border-box;
   scroll-behavior: smooth;
-  scroll-padding-top:10rem;
+  scroll-padding-top:15rem;
 
   /* width */
 ::-webkit-scrollbar {

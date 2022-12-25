@@ -16,13 +16,18 @@ export default function HeaderContainer() {
               </Link>
             </li>
             <li>
-              <Link href="#tecnologias">
+              <Link href="#cardapio">
                 <a>Cardápio</a>
+              </Link>
+            </li>
+            <li>
+              <Link href="#galeria">
+                <a>Galeria</a>
               </Link>
             </li>
 
             <li>
-              <Link href="#projetos">
+              <Link href="#footer">
                 <a>Contato</a>
               </Link>
             </li>
@@ -40,12 +45,17 @@ export default function HeaderContainer() {
             </Link>
           </li>
           <li>
-            <Link href="#tecnologias">
+            <Link href="#cardapio">
               <a onClick={() => setOpen(!open)}>Produtos</a>
             </Link>
           </li>
           <li>
-            <Link href="#projetos">
+            <Link href="#galeria">
+              <a onClick={() => setOpen(!open)}>Contato</a>
+            </Link>
+          </li>
+          <li>
+            <Link href="#footer">
               <a onClick={() => setOpen(!open)}>Contato</a>
             </Link>
           </li>
