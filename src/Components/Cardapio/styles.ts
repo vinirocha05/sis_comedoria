@@ -6,6 +6,11 @@ export const Content = styled.section`
   max-width: 96rem;
   margin-top: 8rem;
 
+  @media (max-width: 800px) {
+    margin-top: 20rem;
+    max-width: 35rem;
+  }
+
   h2 {
     font-size: ${({ theme }) => theme.fonts.sizes.superlarge};
   }
@@ -44,6 +49,16 @@ export const Grid = styled.div`
 
     a:hover {
       background-color: rgba(7, 26, 43, 0.5);
+    }
+  }
+
+  @media (max-width: 800px) {
+    display: flex;
+    flex-direction: column;
+
+    img {
+      order: -1;
+      max-width: 35rem;
     }
   }
 `;

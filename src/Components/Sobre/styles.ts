@@ -6,6 +6,11 @@ export const Content = styled.section`
   max-width: 96rem;
   margin-top: 15rem;
 
+  @media (max-width: 800px) {
+    max-width: 35rem;
+    margin-top: 5rem;
+  }
+
   h2 {
     font-size: ${({ theme }) => theme.fonts.sizes.superlarge};
   }
@@ -19,4 +24,14 @@ export const Grid = styled.div`
   grid-template-columns: 1fr 1fr;
 
   align-items: center;
+
+  @media (max-width: 800px) {
+    display: flex;
+    flex-direction: column;
+
+    img {
+      order: -1;
+      max-width: 40rem;
+    }
+  }
 `;

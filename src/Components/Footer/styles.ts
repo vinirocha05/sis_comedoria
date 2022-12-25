@@ -49,4 +49,16 @@ export const Grid = styled.div`
       }
     }
   }
+
+  @media (max-width: 800px) {
+    display: flex;
+    flex-direction: column;
+    max-width: 35rem;
+    margin: 0 auto;
+
+    iframe {
+      height: 20rem;
+      width: 20rem;
+    }
+  }
 `;

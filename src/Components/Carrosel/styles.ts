@@ -5,4 +5,10 @@ export const Carrosel = styled.div`
   margin: 0 auto;
   max-width: 96rem;
   margin-top: 10rem;
+
+  @media (max-width: 800px) {
+    max-width: 40rem;
+    overflow-x: hidden;
+    height: 35vh;
+  } ;
 `;

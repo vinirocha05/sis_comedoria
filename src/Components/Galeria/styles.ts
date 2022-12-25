@@ -4,6 +4,11 @@ export const Content = styled.section`
   margin: 8rem auto;
   max-width: 96rem;
 
+  @media (max-width: 800px) {
+    margin-top: 5rem;
+    max-width: 35rem;
+  }
+
   h2 {
     font-size: ${({ theme }) => theme.fonts.sizes.superlarge};
   }
