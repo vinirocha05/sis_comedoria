@@ -7,7 +7,10 @@ export default function HeaderContainer() {
   return (
     <Header>
       <Content>
-        <img src="/assets/logo_sis.png" alt="Logo Sis Comedoria" />
+        <Link href="/">
+          <img src="/assets/logo_sis.png" alt="Logo Sis Comedoria" />
+        </Link>
+
         <nav>
           <ul>
             <li>

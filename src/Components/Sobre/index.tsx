@@ -7,9 +7,10 @@ export default function Sobre() {
       <Grid>
         <p>
           A Sis Comedoria nasceu do sonho de duas irmãs de oferecer uma comida
-          gostosa e autência. Além de uma experência gastronômico diferenciada,
-          a Comederia ainda propciona um ambiente agradável apra se fazer
-          networking e cultivar amizades
+          gostosa e autêntica.
+          <br /> Além de uma experência gastronômica aconchegante, a Comederia
+          também proporcioja um ambiente agradável pra se fazer networking e
+          cultivar amizades
         </p>
         <img src="/assets/moinho.png" alt="moinho" />
       </Grid>

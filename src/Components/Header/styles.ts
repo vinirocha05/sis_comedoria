@@ -16,6 +16,7 @@ export const Header = styled.header`
 export const Content = styled.div`
   img {
     width: 5rem;
+    cursor: pointer;
   }
   color: ${({ theme }) => theme.colors.dark};
   display: flex;
