@@ -9,6 +9,9 @@ export const Content = styled.section`
   h2 {
     font-size: ${({ theme }) => theme.fonts.sizes.superlarge};
   }
+  p {
+    font-size: ${({ theme }) => theme.fonts.sizes.large};
+  }
 `;
 
 export const Grid = styled.div`
@@ -16,8 +19,4 @@ export const Grid = styled.div`
   grid-template-columns: 1fr 1fr;
 
   align-items: center;
-
-  p {
-    font-size: ${({ theme }) => theme.fonts.sizes.large};
-  }
 `;

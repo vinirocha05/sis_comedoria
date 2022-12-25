@@ -1,10 +1,8 @@
 import styled from 'styled-components';
 
 export const Content = styled.section`
-  height: 60vh;
-  margin: 0 auto;
+  margin: 8rem auto;
   max-width: 96rem;
-  margin-top: 8rem;
 
   h2 {
     font-size: ${({ theme }) => theme.fonts.sizes.superlarge};
