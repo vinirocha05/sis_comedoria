@@ -9,6 +9,6 @@ export const Carrosel = styled.div`
   @media (max-width: 800px) {
     max-width: 40rem;
     overflow-x: hidden;
-    height: 35vh;
+    height: 40vh;
   } ;
 `;

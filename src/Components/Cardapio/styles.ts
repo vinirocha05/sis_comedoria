@@ -7,7 +7,7 @@ export const Content = styled.section`
   margin-top: 8rem;
 
   @media (max-width: 800px) {
-    margin-top: 20rem;
+    margin-top: 40rem;
     max-width: 35rem;
   }
 
