@@ -10,6 +10,13 @@ export const GlobalStyles = createGlobalStyle`
   scroll-behavior: smooth;
   scroll-padding-top:15rem;
 
+  @font-face {
+font-family: 'Tenez';
+src: url('../../public/assets/Tenez-Italic.otf');
+font-weight: 400;
+font-style: normal;
+}
+
   /* width */
 ::-webkit-scrollbar {
   width: 10px;

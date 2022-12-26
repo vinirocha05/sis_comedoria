@@ -54,7 +54,7 @@ export default function HeaderContainer() {
           </li>
           <li>
             <Link href="#galeria">
-              <a onClick={() => setOpen(!open)}>Contato</a>
+              <a onClick={() => setOpen(!open)}>Galeria</a>
             </Link>
           </li>
           <li>
