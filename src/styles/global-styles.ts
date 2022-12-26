@@ -4,7 +4,7 @@ export const GlobalStyles = createGlobalStyle`
 
 @font-face {
   font-family: 'Tenez';
-  src: url('/assets/Tenez-Italic.otf');
+  src: url('/Tenez-Italic.otf') format('otf');
   font-weight: 400;
   font-style: normal;
 }
