@@ -49,7 +49,7 @@ export default function HeaderContainer() {
           </li>
           <li>
             <Link href="#cardapio">
-              <a onClick={() => setOpen(!open)}>Produtos</a>
+              <a onClick={() => setOpen(!open)}>Cardáio</a>
             </Link>
           </li>
           <li>
