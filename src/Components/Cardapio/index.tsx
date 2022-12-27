@@ -17,7 +17,7 @@ export default function Cardapio() {
             café da manhã, até incriveis porções para o Happy Hour
           </p>
           <Link href="https://drive.google.com/drive/folders/1SQT8zoUp7a895Cb1aIAkTRNYT_R9W6Rv">
-            <a>Link do cardápio</a>
+            Link do cardápio
           </Link>
         </div>
       </Grid>

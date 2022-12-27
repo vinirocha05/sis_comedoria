@@ -24,13 +24,13 @@ export default function FooterContainer() {
             <Link href="https://www.instagram.com/siscomedoria/">
               <li>
                 <img src="/assets/instagram.png" alt="ícone whatsapp" />
-                <a>Instagram</a>
+                Instagram
               </li>
             </Link>
             <Link href="https://wa.me/5567992530457">
               <li>
                 <img src="/assets/whatsapp.png" alt="ícone instagram" />
-                <a>Whatsapp</a>
+                Whatsapp
               </li>
             </Link>
           </ul>

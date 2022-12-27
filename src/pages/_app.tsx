@@ -7,7 +7,7 @@ import { theme } from '../styles/theme';
 import localFont from '@next/font/local';
 
 // Font files can be colocated inside of `pages`
-const myFont = localFont({ src: './Tenez-Italic.otf' });
+const myFont = localFont({ src: './fonts/Tenez-Italic.otf' });
 
 function MyApp({ Component, pageProps }: AppProps) {
   return (

@@ -14,25 +14,17 @@ export default function HeaderContainer() {
         <nav>
           <ul>
             <li>
-              <Link href="#sobre">
-                <a> Sobre</a>
-              </Link>
+              <Link href="#sobre">Sobre</Link>
             </li>
             <li>
-              <Link href="#cardapio">
-                <a>Cardápio</a>
-              </Link>
+              <Link href="#cardapio">Cardápio</Link>
             </li>
             <li>
-              <Link href="#galeria">
-                <a>Galeria</a>
-              </Link>
+              <Link href="#galeria">Galeria</Link>
             </li>
 
             <li>
-              <Link href="#footer">
-                <a>Contato</a>
-              </Link>
+              <Link href="#footer">Contato</Link>
             </li>
           </ul>
         </nav>
@@ -43,23 +35,23 @@ export default function HeaderContainer() {
 
         <ul>
           <li>
-            <Link href="#sobre">
-              <a onClick={() => setOpen(!open)}> Sobre</a>
+            <Link onClick={() => setOpen(!open)} href="#sobre">
+              Sobre
             </Link>
           </li>
           <li>
-            <Link href="#cardapio">
-              <a onClick={() => setOpen(!open)}>Cardáio</a>
+            <Link onClick={() => setOpen(!open)} href="#cardapio">
+              Cardáio
             </Link>
           </li>
           <li>
-            <Link href="#galeria">
-              <a onClick={() => setOpen(!open)}>Galeria</a>
+            <Link onClick={() => setOpen(!open)} href="#galeria">
+              Galeria
             </Link>
           </li>
           <li>
-            <Link href="#footer">
-              <a onClick={() => setOpen(!open)}>Contato</a>
+            <Link onClick={() => setOpen(!open)} href="#footer">
+              Contato
             </Link>
           </li>
         </ul>
